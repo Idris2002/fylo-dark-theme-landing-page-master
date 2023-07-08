@@ -1,0 +1,68 @@
+@import "header";
+@import "hero";
+@import "panel-1";
+@import "panel-2";
+@import "panel-3";
+@import "footer-signup";
+@import "footer";
+
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Raleway', sans-serif;
+
+:root {
+  --main-bg: #181f2b;
+  --footer-bg: hsl(216, 53%, 9%);
+  --testimonial-bg: hsl(219, 30%, 18%);
+  --intro-bg: hsl(217, 28%, 15%);
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  overflow-x: hidden;
+  line-height: 1.5;
+  margin: 0 auto;
+  background-color: var(--main-bg);
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.first-section {
+  padding-top: 4rem;
+  background-color: var(--intro-bg);
+}
+
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+p,
+a,
+button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+button {
+  color: var(--white);
+  background-color: hsl(198, 60%, 50%);
+  font-size: 1.5rem;
+}

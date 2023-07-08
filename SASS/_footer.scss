@@ -1,0 +1,87 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.6rem;
+  @media screen and (min-width: 250px) and (max-width: 480px) {
+    gap: 1.5rem;
+  }
+}
+
+footer {
+  background-color: var(--footer-bg);
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  padding: 20rem 10rem 10rem;
+  font-weight: 400;
+  @media screen and (min-width: 250px) and (max-width: 480px) {
+    padding: 20rem 2.5rem 3.5rem;
+  }
+  .footer-logo {
+    align-self: start;
+  }
+  .footer-content {
+    display: grid;
+    grid-template-columns: 35rem 20rem repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 12rem;
+    align-items: start;
+    @media screen and (min-width: 250px) and (max-width: 480px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 9rem 8rem repeat(2, 1fr) 2rem;
+      gap: 4rem;
+    }
+    .partition-1 {
+      &--desc {
+        display: flex;
+        align-items: start;
+        gap: 2rem;
+        img {
+          padding-top: 1.5rem;
+          width: 15%;
+          @media screen and (min-width: 250px) and (max-width: 480px) {
+            width: 10%;
+          }
+        }
+        p {
+          padding: 1rem;
+          @media screen and (min-width: 250px) and (max-width: 480px) {
+            padding: 1.2rem;
+          }
+        }
+      }
+    }
+    .partition-2 {
+      @media screen and (min-width: 250px) and (max-width: 480px) {
+        justify-self: start;
+      }
+      .reach-info {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.3rem;
+        @media screen and (min-width: 250px) and (max-width: 480px) {
+          gap: 2.5rem;
+        }
+      }
+    }
+    .partition-5 {
+      flex-direction: row;
+      @media screen and (min-width: 250px) and (max-width: 480px) {
+        justify-self: center;
+      }
+      img {
+        width: 2rem;
+      }
+      img:nth-child(2) {
+        margin-inline: 1rem;
+      }
+      img:last-child {
+        width: 1.6 rem;
+      }
+    }
+  }
+}

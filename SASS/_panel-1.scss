@@ -1,0 +1,42 @@
+.panel-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  margin-bottom: 6rem;
+  margin-inline: 8rem;
+  gap: 6rem;
+  @media screen and (min-width: 250px) and (max-width: 480px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    margin-inline: 0rem;
+    margin-top: 25rem;
+    gap: 2.5rem;
+  }
+
+  text-align: center;
+  .items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    img {
+      width: 15%;
+    }
+    h3 {
+      font-size: 2rem;
+      @media screen and (min-width: 250px) and (max-width: 480px) {
+        // font-size: 1.5rem;
+      }
+    }
+
+    p {
+      font-size: 1.3rem;
+      padding-inline: 19rem;
+      @media screen and (min-width: 250px) and (max-width: 480px) {
+        padding-inline: 4.5rem;
+      }
+    }
+  }
+}
