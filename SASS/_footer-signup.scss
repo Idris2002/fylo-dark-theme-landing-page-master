@@ -10,13 +10,13 @@
   transform: translateX(50%);
   transform: translateY(50%);
   border-radius: 5px;
-  @media screen and (min-width: 250px) and (max-width: 480px) {
+  @media screen and (min-width: 250px) and (max-width: 720px) {
     margin-inline: 2rem;
     padding: 2rem;
   }
   h2 {
     font-size: 3rem;
-    @media screen and (min-width: 250px) and (max-width: 480px) {
+    @media screen and (min-width: 250px) and (max-width: 720px) {
       font-size: 2rem;
     }
   }
@@ -24,7 +24,7 @@
     font-size: 1.5rem;
     padding-inline: 4rem;
     text-align: center;
-    @media screen and (min-width: 250px) and (max-width: 480px) {
+    @media screen and (min-width: 250px) and (max-width: 720px) {
       font-size: 1.2rem;
       padding-inline: 3rem;
     }
@@ -35,7 +35,7 @@
     justify-content: center;
     gap: 1.5rem;
     width: 100%;
-    @media screen and (min-width: 250px) and (max-width: 480px) {
+    @media screen and (min-width: 250px) and (max-width: 720px) {
       flex-direction: column;
     }
     input {
@@ -45,7 +45,7 @@
       padding-inline: 1.5rem;
       padding-block: 1.1rem;
       font-size: 1rem;
-      @media screen and (min-width: 250px) and (max-width: 480px) {
+      @media screen and (min-width: 250px) and (max-width: 720px) {
         width: 100%;
         padding-block: 1.5rem;
       }
@@ -59,7 +59,7 @@
       padding-block: 0.8rem;
       font-size: 1.5rem;
       background-color: aqua;
-      @media screen and (min-width: 250px) and (max-width: 480px) {
+      @media screen and (min-width: 250px) and (max-width: 720px) {
         width: 100%;
         font-size: 1.2rem;
         padding-block: 1.6rem;

@@ -4,7 +4,7 @@ nav {
   justify-content: center;
   padding-inline: 4rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   nav {
     padding-inline: 2rem;
   }
@@ -12,7 +12,7 @@ nav {
 nav .logo {
   margin-right: auto;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   nav .logo img {
     width: 50%;
   }
@@ -24,7 +24,7 @@ nav ul {
   gap: 2rem;
   font-size: 1.5rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   nav ul {
     font-size: 1.2rem;
     gap: 1rem;
@@ -38,23 +38,23 @@ nav ul {
   justify-content: start;
   gap: 1.5rem;
   text-align: center;
-  background-image: url("/images/bg-curvy-desktop.svg");
+  background-image: url("images\bg-curvy-desktop.svg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: scroll;
   height: 90rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .hero {
-    background-image: url("/images/bg-curvy-mobile.svg");
+    background-image: url("images\bg-curvy-mobile.svg");
     height: 35rem;
   }
 }
 .hero .intro-illustration {
   width: 35%;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .hero .intro-illustration {
     width: 75%;
     margin-top: 2rem;
@@ -68,7 +68,7 @@ nav ul {
   padding-inline: 50rem;
   margin-bottom: 0.5rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .hero h2 {
     padding-inline: 5rem;
     font-size: 2rem;
@@ -78,7 +78,7 @@ nav ul {
   font-size: 1.7rem;
   padding-inline: 55rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .hero p {
     font-size: 1.5rem;
     padding-inline: 3rem;
@@ -101,7 +101,7 @@ nav ul {
   gap: 6rem;
   text-align: center;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-1 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
@@ -127,7 +127,7 @@ nav ul {
   font-size: 1.3rem;
   padding-inline: 19rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-1 .items p {
     padding-inline: 4.5rem;
   }
@@ -141,7 +141,7 @@ nav ul {
   margin-block: 15rem;
   gap: 6rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-2 {
     flex-direction: column;
     margin-inline: 2.5rem;
@@ -151,7 +151,7 @@ nav ul {
 .panel-2--img {
   width: 45%;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-2--img {
     width: 100%;
   }
@@ -164,7 +164,7 @@ nav ul {
   gap: 2rem;
   padding-inline: 5rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-2--content {
     padding-inline: 1rem;
   }
@@ -172,7 +172,7 @@ nav ul {
 .panel-2--content h2 {
   font-size: 2.5rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-2--content h2 {
     font-size: 2rem;
   }
@@ -180,7 +180,7 @@ nav ul {
 .panel-2--content p {
   font-size: 1.5rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-2--content p {
     font-size: 1.3rem;
   }
@@ -195,7 +195,7 @@ nav ul {
   padding-bottom: 0.5rem;
   color: hsl(176, 68%, 64%);
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-2--content span {
     font-size: 1.3rem;
   }
@@ -210,7 +210,7 @@ nav ul {
   left: 11rem;
   z-index: -1;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-3 .quote {
     width: 2rem;
     top: -1.5rem;
@@ -225,7 +225,7 @@ nav ul {
   gap: 4rem;
   margin: 10rem 12rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-3 .testimonials {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
@@ -238,7 +238,7 @@ nav ul {
   padding: 3rem;
   border-radius: 5px;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-3 .testimonials--body {
     padding: 2rem;
   }
@@ -246,7 +246,7 @@ nav ul {
 .panel-3 .testimonials--body .testimonial {
   font-size: 2rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-3 .testimonials--body .testimonial {
     font-size: 1.2rem;
   }
@@ -266,7 +266,7 @@ nav ul {
 .panel-3 .testimonials--body .title-grp .title-subgrp h3 {
   font-size: 1.5rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-3 .testimonials--body .title-grp .title-subgrp h3 {
     font-size: 1.2rem;
   }
@@ -274,7 +274,7 @@ nav ul {
 .panel-3 .testimonials--body .title-grp .title-subgrp p {
   font-size: 1rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .panel-3 .testimonials--body .title-grp .title-subgrp p {
     font-size: 0.8rem;
   }
@@ -293,7 +293,7 @@ nav ul {
   transform: translateY(50%);
   border-radius: 5px;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .footer-signup {
     margin-inline: 2rem;
     padding: 2rem;
@@ -302,7 +302,7 @@ nav ul {
 .footer-signup h2 {
   font-size: 3rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .footer-signup h2 {
     font-size: 2rem;
   }
@@ -312,7 +312,7 @@ nav ul {
   padding-inline: 4rem;
   text-align: center;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .footer-signup p {
     font-size: 1.2rem;
     padding-inline: 3rem;
@@ -325,7 +325,7 @@ nav ul {
   gap: 1.5rem;
   width: 100%;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .footer-signup .input-grp {
     flex-direction: column;
   }
@@ -338,7 +338,7 @@ nav ul {
   padding-block: 1.1rem;
   font-size: 1rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .footer-signup .input-grp input {
     width: 100%;
     padding-block: 1.5rem;
@@ -353,7 +353,7 @@ nav ul {
   font-size: 1.5rem;
   background-color: aqua;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .footer-signup .input-grp button {
     width: 100%;
     font-size: 1.2rem;
@@ -369,7 +369,7 @@ nav ul {
   gap: 2rem;
   font-size: 1.6rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   .flex {
     gap: 1.5rem;
   }
@@ -383,7 +383,7 @@ footer {
   padding: 20rem 10rem 10rem;
   font-weight: 400;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   footer {
     padding: 20rem 2.5rem 3.5rem;
   }
@@ -398,7 +398,7 @@ footer .footer-content {
   gap: 12rem;
   align-items: start;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   footer .footer-content {
     grid-template-columns: 1fr;
     grid-template-rows: 9rem 8rem repeat(2, 1fr) 2rem;
@@ -414,7 +414,7 @@ footer .footer-content .partition-1--desc img {
   padding-top: 1.5rem;
   width: 15%;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   footer .footer-content .partition-1--desc img {
     width: 10%;
   }
@@ -422,12 +422,12 @@ footer .footer-content .partition-1--desc img {
 footer .footer-content .partition-1--desc p {
   padding: 1rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   footer .footer-content .partition-1--desc p {
     padding: 1.2rem;
   }
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   footer .footer-content .partition-2 {
     justify-self: start;
   }
@@ -438,7 +438,7 @@ footer .footer-content .partition-2 .reach-info {
   gap: 1rem;
   font-size: 1.3rem;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   footer .footer-content .partition-2 .reach-info {
     gap: 2.5rem;
   }
@@ -446,7 +446,7 @@ footer .footer-content .partition-2 .reach-info {
 footer .footer-content .partition-5 {
   flex-direction: row;
 }
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 720px) {
   footer .footer-content .partition-5 {
     justify-self: center;
   }
@@ -478,7 +478,7 @@ footer .footer-content .partition-5 img:last-child {
 html {
   font-size: 10px;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+@media screen and (min-width: 280px) and (max-width: 767px) and (orientation: landscape) {
   html {
     transform: rotate(-90deg);
     transform-origin: left top;

@@ -3,13 +3,13 @@ nav {
   align-items: center;
   justify-content: center;
   padding-inline: 4rem;
-  @media screen and (min-width: 250px) and (max-width: 480px) {
+  @media screen and (min-width: 250px) and (max-width: 720px) {
     padding-inline: 2rem;
   }
   .logo {
     margin-right: auto;
     img {
-      @media screen and (min-width: 250px) and (max-width: 480px) {
+      @media screen and (min-width: 250px) and (max-width: 720px) {
         width: 50%;
       }
     }
@@ -21,7 +21,7 @@ nav {
     gap: 2rem;
     font-size: 1.5rem;
 
-    @media screen and (min-width: 250px) and (max-width: 480px) {
+    @media screen and (min-width: 250px) and (max-width: 720px) {
       font-size: 1.2rem;
       gap: 1rem;
     }

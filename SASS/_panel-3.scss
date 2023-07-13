@@ -6,7 +6,7 @@
     left: 11rem;
     z-index: -1;
     // width: 2rem;
-    @media screen and (min-width: 250px) and (max-width: 480px) {
+    @media screen and (min-width: 250px) and (max-width: 720px) {
       width: 2rem;
       top: -1.5rem;
       left: 4.5rem;
@@ -19,7 +19,7 @@
     place-items: center;
     gap: 4rem;
     margin: 10rem 12rem;
-    @media screen and (min-width: 250px) and (max-width: 480px) {
+    @media screen and (min-width: 250px) and (max-width: 720px) {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, 1fr);
       gap: 2rem;
@@ -29,12 +29,12 @@
       background-color: var(--testimonial-bg);
       padding: 3rem;
       border-radius: 5px;
-      @media screen and (min-width: 250px) and (max-width: 480px) {
+      @media screen and (min-width: 250px) and (max-width: 720px) {
         padding: 2rem;
       }
       .testimonial {
         font-size: 2rem;
-        @media screen and (min-width: 250px) and (max-width: 480px) {
+        @media screen and (min-width: 250px) and (max-width: 720px) {
           font-size: 1.2rem;
         }
       }
@@ -53,13 +53,13 @@
         .title-subgrp {
           h3 {
             font-size: 1.5rem;
-            @media screen and (min-width: 250px) and (max-width: 480px) {
+            @media screen and (min-width: 250px) and (max-width: 720px) {
               font-size: 1.2rem;
             }
           }
           p {
             font-size: 1rem;
-            @media screen and (min-width: 250px) and (max-width: 480px) {
+            @media screen and (min-width: 250px) and (max-width: 720px) {
               font-size: 0.8rem;
             }
           }
